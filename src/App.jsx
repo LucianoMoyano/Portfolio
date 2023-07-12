@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+
+//import components
 import { Header } from "./components/Header/Header";
 
 function App() {
@@ -7,7 +9,7 @@ function App() {
     <>
       <div>
         <Header />
-        {/* Aquí puedes agregar el resto de tu contenido */}
+        <div className="height"></div>
       </div>
     </>
   );
